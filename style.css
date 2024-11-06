@@ -1,0 +1,29 @@
+.tetris-playground {
+    display: flex;
+    flex-direction: column;
+    width: 200px; /* Задайте нужную ширину для игрового поля */
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 20px; /* Ширина ячейки */
+    height: 20px; /* Высота ячейки */
+    border: 1px solid #ddd; /* Цвет рамки ячеек */
+    box-sizing: border-box;
+}
+
+/*
+[data-row="2"] > [data-cell="4"] {
+    background-color: blue;
+}
+[data-row="2"] > [data-cell="5"] {
+    background-color: blue;
+}
+/* attribute selector*/
+/*
+[class="cell"]{
+    background-color: yellow;
+}*/
